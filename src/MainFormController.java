@@ -60,6 +60,8 @@ public class MainFormController {
     public void mulOnAction(MouseEvent mouseEvent) {
     }
     private double numberOne=0;
+    private double numberTwo=0;
+
     private char exp='+';
     private void setNumber(int number){
 
@@ -73,7 +75,15 @@ public class MainFormController {
     }
     private void exec(char exp){
         this.exp=exp;
-        numberOne=Double.parseDouble(txtInput.getText());
+        if(numberOne==0){
+            numberOne=Double.parseDouble(txtInput.getText());
+            txtInput.clear();
+        }
+        else{
+            numberTwo=Double.parseDouble(txtInput.getText());
+
+        }
+
         txtInput.clear();
 
     }
