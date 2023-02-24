@@ -62,7 +62,7 @@ public class MainFormController {
     private double numberOne=0;
     private double numberTwo=0;
 
-    private char exp='+';
+    private char exp;
     private void setNumber(int number){
 
         if(txtInput.getText().isEmpty() || Integer.parseInt(txtInput.getText())==0)
@@ -81,10 +81,22 @@ public class MainFormController {
         }
         else{
             numberTwo=Double.parseDouble(txtInput.getText());
+            calculate();
 
         }
+    }
+    private void calculate(){
+        double answer=0;
+        switch  (exp){
+            case '+': answer = numberOne + numberTwo;break;
+            case '-': answer = numberOne - numberTwo;break;
+            case '/': answer = numberOne / numberTwo;break;
+            case '*': answer = numberOne * numberTwo;break;
 
-        txtInput.clear();
-
+        }
+        txtInput.setText(String.valueOf(answer));
+        numberTwo=0;
+        numberOne=0;
     }
 }
+

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35c08cdc-0bde-4a6f-905f-d0a82d674074" name="Changes" comment="2">
+    <list default="true" id="35c08cdc-0bde-4a6f-905f-d0a82d674074" name="Changes" comment="3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFormController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
       <updated>1677151439680</updated>
       <workItem from="1677151441411" duration="2971000" />
       <workItem from="1677166502407" duration="4081000" />
-      <workItem from="1677205439569" duration="3465000" />
+      <workItem from="1677205439569" duration="5626000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1677173347308</created>
@@ -72,7 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677206852261</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2">
+      <created>1677208944719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677208944719</updated>
+    </task>
+    <task id="LOCAL-00005" summary="3">
+      <created>1677209563294</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677209563294</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +105,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
 </project>
